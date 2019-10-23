@@ -17,7 +17,7 @@ object PageViewData {
 
     logger.info("Building Sparksession created------->>>>>")
     val spark = SparkSession.builder
-      .appName("Shopback Spark homework")
+      .appName("Ingestion-Spark-scala")
       .master("local[*]")
       .getOrCreate
 

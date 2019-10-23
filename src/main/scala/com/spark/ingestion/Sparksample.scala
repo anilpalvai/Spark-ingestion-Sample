@@ -10,7 +10,7 @@ object Sparksample {
 
   logger.info("Building Sparksession created------->>>>>")
   val spark = SparkSession.builder
-    .appName("Shopback Sparksample")
+    .appName("Ingestion Sparksample")
     .master("local[*]")
     .getOrCreate
   import spark.implicits.{_}
